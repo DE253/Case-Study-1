@@ -1,0 +1,17 @@
+{
+	"name": "customer_http_ls",
+	"properties": {
+		"parameters": {
+			"customer": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "@{linkedService().customer}",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
