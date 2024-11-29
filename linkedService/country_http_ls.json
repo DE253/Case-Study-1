@@ -1,0 +1,17 @@
+{
+	"name": "country_http_ls",
+	"properties": {
+		"parameters": {
+			"country": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "@{linkedService().country}",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

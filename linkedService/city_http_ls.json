@@ -1,0 +1,17 @@
+{
+	"name": "city_http_ls",
+	"properties": {
+		"parameters": {
+			"city": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "@{linkedService().city}",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
