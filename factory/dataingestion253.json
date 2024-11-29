@@ -1,0 +1,9 @@
+{
+	"name": "dataingestion253",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "726b5910-3f0a-4c4a-98fd-0b3aacf9b686",
+		"tenantId": "80afa3f4-1563-46f1-a268-04f5fb610dd9"
+	}
+}
