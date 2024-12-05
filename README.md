@@ -126,10 +126,13 @@ Load files df1, df2, df3, df4 from the curated container into dataframes address
 
 
 # Synapse Analytics
-Create Azure Synapse Analytics with linked service for the storage account.
+Create Azure Synapse Analytics with linked service for the storage account with sql credentials in key vault.
 
-From the linked data, create external table for the active customer from the staging account.
+Parameterize dynamic linked services for the Key Vault and Data Lake Storage Account was created.
 
+Create a dedicated pool.
+
+Create external table for the active customers from the staging account.
 
 
 
