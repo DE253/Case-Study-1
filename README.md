@@ -126,16 +126,21 @@ Load files df1, df2, df3, df4 from the curated container into dataframes address
 
 
 # Synapse Analytics
-Create Azure Synapse Analytics with linked service for the storage account with sql credentials in key vault.
-
-Parameterize dynamic linked services for the Key Vault and Data Lake Storage Account was created.
+Create Azure Synapse Analytics with linked service for the storage account with sql credentials.
 
 Create a dedicated pool.
 
-Create external table for the active customers from the staging account.
-![Ext_table](https://github.com/user-attachments/assets/7b32001d-62d0-4f52-9ad2-dc08f0d33f38)
+Created linked services for the Data Lake Storage Account and Synapse Analytics.
 
+Created a new pipeline to transfer the processed file from the staging container in Data Lake Storage to Synapse Analytics.
 
+Set the source dataset to connect to the Data Lake Storage and the sink dataset to dedicated SQL pool in Synapse Analytics.
+
+Next, created a table in deelop using SQL script to store the transferred data.
+
+Run the pipeline and verify the data has transferred.
+
+	Note: In this case, ther were issues with schemas when creating the table. Had to ensure binary for active column.
 
 
 
