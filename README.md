@@ -34,7 +34,7 @@ select * from Employees
     Go to Manage > Linked Services in ADF.
     Create a new linked service for SQL server.
     Provide the connection details:
-        Server name, Database name, Authentication method (SQL Authentication or Azure AD), and credentials. Connect the server through runtime integration. 
+        Server name, Database name, Authentication method (SQL Authentication or Azure AD), and credentials. Connect the server through self-hosted runtime integration. 
         Test the connection.
 
 2.  Data Lake Storage
