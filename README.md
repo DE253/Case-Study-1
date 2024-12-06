@@ -133,7 +133,7 @@ Parameterize dynamic linked services for the Key Vault and Data Lake Storage Acc
 Create a dedicated pool.
 
 Create external table for the active customers from the staging account.
-
+![Ext_table](https://github.com/user-attachments/assets/7b32001d-62d0-4f52-9ad2-dc08f0d33f38)
 
 
 
