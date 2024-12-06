@@ -49,7 +49,7 @@ select * from Employees
     We will have created 4 http for address, city, country and customer.
 
 ### Create Copy data activity
-    Add a Copy Data Activity:
+    Add a Copy Data Activity -
     Drag a Copy Data activity into the pipeline.
 
     For SQL database
