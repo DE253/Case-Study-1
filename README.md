@@ -142,7 +142,24 @@ Run the pipeline and verify the data has transferred.
 
 	Note: In this case, ther were issues with schemas when creating the table. Had to ensure binary for active column.
 
+Finally, the data is moved into the warehouse.
 
+We can now run sql codes to analyse the data perform some functions.
+
+Analysis 1:
+SELECT customer_id, first_name, last_name, city
+FROM dbo.active_customers
+WHERE city LIKE 'P%';
+
+This analysis gives list of all the cities starting with letter P along with respective customer_id, first_name, last_name.
+
+Analysis 2:
+SELECT COUNT(city) AS city_count
+FROM dbo.active_customers
+WHERE city LIKE 'P%';
+
+
+This Analysis gives a count of cities starting with letter P
 
 
 
